@@ -13,10 +13,11 @@ Para la primera versión, existen 4 artefactos:
 - Collar divino
 - Armadura de acero valyrio
 
+Al principio Rolando solo puede llevar hasta 2 artefactos a la vez, 
+pero se espera que a medida que se desarrolla el juego pueda incrementar 
+su capacidad.
 
-Al principio Rolando solo puede llevar hasta 2 artefactos a la vez, pero se espera que a medida que se 
-desarrollo el juego pueda incrementar la cantidad de artefactos que puede tener al mismo tiempo.
-Cada vez que rolando se encuentra con un artefacto, si es que tiene capacidad para llevarlo lo agarra. 
+Cada vez que rolando se encuentra con un artefacto, y tiene capacidad para llevarlo, lo levanta. 
 
 ### Ejemplo:
  1. rolando encuentra la espada del destino (la agarra)
@@ -25,9 +26,10 @@ Cada vez que rolando se encuentra con un artefacto, si es que tiene capacidad pa
 
 ## Castillo de piedra
 
-El castillo de piedra es donde Rolando vive, Es tan grande que allí no hay límite almacenar artefactos.
-Cuando rolando llega al castillo de piedra guarda en él todos los artefactos que lleva encima, liberando espacio para poder 
-encontrar nuevos elementos
+El castillo de piedra es donde Rolando vive. Es tan grande que allí no hay límite 
+para almacenar artefactos.
+Cuando rolando llega al castillo de piedra guarda en él todos los artefactos que lleva encima, 
+liberando espacio para poder levantar nuevos. 
 
 ### Ejemplo:
  1. rolando encuentra la espada del destino (la agarra)
@@ -42,10 +44,12 @@ encontrar nuevos elementos
  (ya resuelto en el punto anterior), pero tambien debe saber cuales son todos los artefactos que él posee 
  sin importar si lo tiene encima o en su castillo.
  
- Tambien se quiere preguntar si posee un artefacto en especial.
+ También se quiere preguntar si posee un artefacto en especial.
  
 #Ejemplo: 
-	Si el castillo tiene el collar, la espada y el libro. Rolando tiene la armadura. Entonces rolando posee todos los artefactos.
+	Si el castillo tiene el collar, la espada. Rolando tiene la armadura. 
+	Entonces rolando posee el collar, la espada y la armadura.
+	El libro no lo posee.
  
 ## Saber la historia de los encuentros con los artefactos.
  
